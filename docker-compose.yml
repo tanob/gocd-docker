@@ -1,0 +1,12 @@
+server:
+  build: gocd-server
+  hostname: go-server
+  ports:
+    - '8153:8153'
+
+agent:
+  build: gocd-agent
+  links:
+    - server
+  environment:
+    AGENT_KEY: '123456789abcdef'
