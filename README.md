@@ -1,6 +1,18 @@
 # gocd-docker
 Minimal GoCD Server and Agent for Docker
 
+Server:
+[![Docker Stars](https://img.shields.io/docker/stars/tanob/gocd-server.svg)](https://registry.hub.docker.com/u/tanob/gocd-server/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tanob/gocd-server.svg)](https://registry.hub.docker.com/u/tanob/gocd-server/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/tanob/gocd-server/latest.svg)](https://imagelayers.io/?images=tanob/gocd-server:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/tanob/gocd-server/latest.svg)](https://imagelayers.io/?images=tanob/gocd-server:latest)
+
+Agent:
+[![Docker Stars](https://img.shields.io/docker/stars/tanob/gocd-agent.svg)](https://registry.hub.docker.com/u/tanob/gocd-agent/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tanob/gocd-agent.svg)](https://registry.hub.docker.com/u/tanob/gocd-agent/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/tanob/gocd-agent/latest.svg)](https://imagelayers.io/?images=tanob/gocd-agent:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/tanob/gocd-agent/latest.svg)](https://imagelayers.io/?images=tanob/gocd-agent:latest)
+
 ## Best Practices
 
 These Docker images were created following the [Best practices for writing Dockerfiles](https://docs.docker.com/engine/articles/dockerfile_best-practices/) and some others collected by looking Dockerfiles from Docker official repositories.
