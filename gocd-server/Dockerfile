@@ -2,9 +2,9 @@ FROM java:8-jre
 
 MAINTAINER Adriano Bonat <adrianob@gmail.com>
 
-ENV GOCD_VERSION=15.3.0-2715
-ENV GOCD_SERVER_SHA1=ed2bd054c5260c9984f08fcdd6d761483993b58c
-ENV GOCD_SERVER_URL=https://download.go.cd/local/15.3.0-2715/go-server-15.3.0-2715.deb
+ENV GOCD_VERSION=15.3.1-2777
+ENV GOCD_SERVER_SHA1=9ede588d4ffa59feb33c4ccc7bb17b1910d93524
+ENV GOCD_SERVER_URL=https://download.go.cd/gocd-deb/go-server-${GOCD_VERSION}.deb
 
 RUN set -x \
  # Download/Install/Cleanup Go Server
