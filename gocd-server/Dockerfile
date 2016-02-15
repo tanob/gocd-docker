@@ -4,7 +4,7 @@ MAINTAINER Adriano Bonat <adrianob@gmail.com>
 
 ENV GOCD_VERSION=16.2.0-3024
 ENV GOCD_SERVER_SHA1=34bfce8e1a10bd6c4fa9591c3ca3e867f960d679
-ENV GOCD_SERVER_URL=https://download.go.cd/gocd-deb/go-server-${GOCD_VERSION}.deb
+ENV GOCD_SERVER_URL=https://download.go.cd/binaries/${GOCD_VERSION}/deb/go-server-${GOCD_VERSION}.deb
 
 RUN set -x \
  # Download/Install/Cleanup Go Server
