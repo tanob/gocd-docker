@@ -2,8 +2,8 @@ FROM java:8-jre
 
 MAINTAINER Adriano Bonat <adrianob@gmail.com>
 
-ENV GOCD_VERSION=16.2.0-3024
-ENV GOCD_AGENT_SHA1=03fbd3d5ad9368bfd119347d6a6352e9aa42ff69
+ENV GOCD_VERSION=16.5.0-3305
+ENV GOCD_AGENT_SHA1=90e1f9c7281c6cd7ddc384b831faeaf347331ab9
 ENV GOCD_AGENT_URL=https://download.go.cd/binaries/${GOCD_VERSION}/deb/go-agent-${GOCD_VERSION}.deb
 
 RUN set -x \
